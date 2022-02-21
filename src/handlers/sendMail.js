@@ -9,7 +9,7 @@ async function sendMail(event, context) {
   const email = JSON.parse(record.body);
   const { subject, body, recipient } = email;
   const params = {
-    Source: 'mohammedibrahim@visiblestarsksa.com',
+    Source: 'testm@test.com',
     Destination: {
       ToAddresses: [recipient],
     },
